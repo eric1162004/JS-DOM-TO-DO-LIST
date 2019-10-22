@@ -47,7 +47,7 @@ addForm.addEventListener('submit', (e)=>{
     } else {
         if(!addForm.querySelector('p')){
             input.style.border = 'red 2px solid';
-            addForm.innerHTML += "<p>Book name is required.</p>"
+            addForm.innerHTML += "<p>Task name is required.</p>"
         }
     }
 });
